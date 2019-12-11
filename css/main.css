@@ -98,6 +98,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  /******** Here to keep images to size while adding content - remove! */
+  
+  img {
+    display:block;
+    width:100%;
+    height:auto;
+    max-width:400px;
+    border:1px solid black;
+  }
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
