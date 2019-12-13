@@ -155,7 +155,6 @@ textarea {
      margin-top:43px;
    }/*Shifts content down to make room for fixed navbar*/
    
-  
    /*** Navigation Bar ***/
 
    #navbar-container{
@@ -221,8 +220,6 @@ textarea {
 
    /*** Hero ***/
 
-   /* set a base font for this section and use EM to get 
-      it to scale along with img background*/
    #hero {
     width:100%;
     border-bottom:1px solid #9b1f1d;
@@ -446,28 +443,7 @@ textarea {
       font-size:1.6rem;
       text-align:center;
       font-family:'Lato', sans-serif;
-    
    }
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-  
-
-
 
 /* ==========================================================================
    Helper classes
@@ -558,9 +534,19 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+   /************ Tablet Styles ***********/
+   
+   @media only screen and (min-width: 768px) {
+  
+
+
+
 }
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
