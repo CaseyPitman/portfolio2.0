@@ -124,7 +124,8 @@ textarea {
    }
 
    h1 {
-     font-size:2.4rem;
+     font-size:2.5rem;
+     line-height:1.2;
    }
 
    h2 {
@@ -136,7 +137,7 @@ textarea {
    }
 
    p {
-     font-size:1.4rem;
+     font-size: 1.6rem;
      line-height:1.5em;
    }
 
@@ -203,12 +204,16 @@ textarea {
      font-weight:700;
    }
 
+   #navbar ul li:hover {
+     transform:scale(1.2);
+   }   
+
    #navbar ul li a{
      color:white;
    }
- 
-
-
+   #navbar ul li a:hover {
+      color:crimson;
+   }
    /*** Hero ***/
 
    /* set a base font for this section and use EM to get 
@@ -223,7 +228,8 @@ textarea {
 
    #hero h1 {
     margin:auto;
-    width:90%;
+    padding:15px 0 0;
+    width:75%;
     }
 
    /*** About ***/
@@ -236,19 +242,20 @@ textarea {
     scroll-margin-top:42px;
    }
    #about-container {
-     width:90%;
+     width:75%;
      margin:auto;
+     padding:40px 0;
    }
 
    #about h2 {
      margin:0;
-     padding:15px 0 0;
+     padding:0 0 15px;
      text-align:center;
    }
 
    #about p {
      margin:0;
-     padding:10px 0 15px;
+     padding:10px 0 0;
    }
 
    /*** Work ***/
@@ -264,14 +271,15 @@ textarea {
    #work h2 {
     color:#ffffff;
     margin:0 auto;
-    padding:15px 0 0;
+    padding:0;
     text-align:center;
    }
 
    #work-container {
      width:90%;
      height:auto;
-     margin:0 auto 25px;
+     margin:0 auto;
+     padding:40px 0;
      display:flex;
      justify-content:space-around;
      align-items:center;
@@ -307,14 +315,14 @@ textarea {
   }
 
    #portfolio-container {
-     width:90%;
+     width:75%;
      margin:auto;
-     padding:0 0 20px;
+     padding:40px 0;
    }
 
    #portfolio-container h2{
      margin:0 auto;
-     padding:15px 0 0;
+     padding:0;
      text-align:center;
    }
 
@@ -349,6 +357,7 @@ textarea {
    /*** Footer & Contact Info ***/
 
    #contact {
+    background:#000000;
     margin:0 auto;
     scroll-margin-top:42px;
     width:100%;
@@ -357,7 +366,7 @@ textarea {
    #footer-content-wrapper {
      width:100%;
      margin:auto;
-     padding:20px 0 0;
+     padding:40px 0 20px;
      border-bottom:1px solid #9b1f1d;
    }
 
@@ -376,11 +385,14 @@ textarea {
 
    #contact-info{
      margin:20px auto 0;
-     
    }
 
    #contact-info-box {
-     width:90%;
+     background:#ffffff;
+     border:1px solid red;
+     border-radius:5px;
+     padding:15px;
+     width:75%;
      margin:auto;
    }
 
@@ -404,28 +416,25 @@ textarea {
    #social-media-list{
      list-style:none;
      display:flex;
-     justify-content:space-between;
+     justify-content:space-around;
      align-items:center;
-     margin:auto;
-     width:90%;
+     width:100%;
      padding:15px 0;
    }
 
    .social-media-icon {
      font-size:3rem;
-
    }
 
     #copyright {
       background:#000000;
       margin:0 auto;
-      padding:5px 0 10px;
+      padding:20px 0;
       color:white;
-      font-size:1.4rem;
+      font-size:1.6rem;
       text-align:center;
       font-family:'Lato', sans-serif;
-      
-
+    
    }
 
 
