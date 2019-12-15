@@ -153,6 +153,9 @@ textarea {
    
    #content-wrapper {
      margin-top:43px;
+     border-left:1px solid rgb(155, 31, 29);
+     border-right:1px solid rgb(155, 31, 29);
+
    }/*Shifts content down to make room for fixed navbar*/
    
    /*** Navigation Bar ***/
@@ -311,7 +314,6 @@ textarea {
 
    #portfolio {
     background:#ffffff;
-    border-bottom:1px solid #9b1f1d;
     scroll-margin-top:42px;
     width:100%;
   }
@@ -360,6 +362,7 @@ textarea {
 
    #contact {
     background:#000000;
+    border-top:1px solid #9b1f1d;
     margin:0 auto;
     scroll-margin-top:42px;
     width:100%;
@@ -603,7 +606,7 @@ textarea {
 
     #footer-content-wrapper {
       display:flex;
-      justify-content:space-evenly;
+      justify-content:space-around;
       align-items:center;
       flex-flow:row wrap;
     }
@@ -642,7 +645,6 @@ textarea {
   #hero h1 {
     font-size:6rem;
     padding:75px 0 0;
-
   }
  
   #content-wrapper {
@@ -653,9 +655,59 @@ textarea {
     width:602px;
   }
 
+  /***** Shifts Work Section to row via flex ******/
+
+  
+
 }
 
 /*********** Desktop Sytles **********/
+@media only screen and (min-width: 1200px){
+  
+  #navbar {
+    width:1200px;
+  }
+  
+  #content-wrapper {
+    max-width:1200px;
+    margin:auto;
+    border-left:1px solid rgb(155, 31, 29);
+    border-right:1px solid rgb(155, 31, 29);
+
+  }
+
+  #hero {
+    min-height:800px;
+  }
+
+  #about-container {
+    width:50%;}
+
+  #work-container {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-flow:row wrap;
+  }
+
+  #work-container h2{
+    width:100%;
+  }
+
+  .skill-box {
+    width:20%;
+  }
+
+  #footer-content-wrapper {
+    max-width:1200px;
+  }
+    
+  
+
+
+
+}
 
 
 
